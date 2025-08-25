@@ -2,6 +2,11 @@
 # Author: Michael Brown
 # Description: Configures SSH access on the host machine using a transferred public key.
 
+
+# Install OpenSSH server if not already installed
+# sudo apt install openssh-server
+
+
 set -e  # Exit on error
 set -u  # Treat unset variables as errors
 
